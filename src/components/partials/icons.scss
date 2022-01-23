@@ -1,0 +1,82 @@
+.crypto-icons,
+.currency-icons {
+  position: absolute;
+  top: 460px;
+  left: 1600px;
+  list-style-type: none;
+  overflow-y: scroll;
+  height: 200px;
+  width: 270px;
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 0px;
+  border-radius: 10px;
+  border: 1px solid #d8d8d8;
+}
+.currency-icons {
+  top: 385px;
+}
+.crypto-icons button,
+.currency-icons button {
+  background-color: #ffffff;
+  border: none;
+}
+.crypto-icons button:hover,
+.currency-icons button:hover {
+  background-color: #d8d8d8;
+}
+
+@media screen and (max-width: 1950px) {
+  .crypto-icons,
+  .currency-icons {
+    left: 1400px;
+  }
+}
+@media screen and (max-width: 1675px) {
+  .crypto-icons,
+  .currency-icons {
+    left: 1292px;
+  }
+}
+@media screen and (max-width: 1550px) {
+  .crypto-icons,
+  .currency-icons {
+    left: 1192px;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .crypto-icons,
+  .currency-icons {
+    left: 1060px;
+  }
+}
+
+@media screen and (max-width: 1290px) {
+  .crypto-icons {
+    left: 965px;
+    top: 422px;
+  }
+}
+@media screen and (max-width: 1290px) {
+  .currency-icons {
+    left: 965px;
+    top: 350px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .crypto-icons,
+  .currency-icons {
+    left: 900px;
+  }
+}
+
+button {
+  background-repeat: no-repeat;
+  background-position: left;
+  background-position-x: 10px;
+  background-size: 22px 22px;
+  height: 50px;
+  padding: 10px 10px 10px 50px;
+  text-align: left;
+  width: 256px;
+}
