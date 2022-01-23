@@ -14,8 +14,11 @@
 <div align="center">
   <br />
   <strong>Node.js</strong>
+  <br />
   <strong>Browser</strong>
+  <br />
   <strong>json-server</strong>
+  <br />
 </div>
 
 ## Installation
